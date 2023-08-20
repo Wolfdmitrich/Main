@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 /* Firefox */
 *
 {
@@ -48,7 +48,7 @@
 
 *
 {
-    font-family: 'Cuprum', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
 
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
