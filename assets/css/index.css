@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 /* Firefox */
 *
 {
@@ -47,7 +48,7 @@
 
 *
 {
-    font-family: 'COURIER NEW' !important;
+    font-family: 'Courier Prime', monospace;
 
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
