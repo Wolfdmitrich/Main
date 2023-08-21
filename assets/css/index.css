@@ -60,7 +60,7 @@
 
 svg
 {
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Russo One', sans-serif !important;
 
     width: 100%;
     height: 100%;
