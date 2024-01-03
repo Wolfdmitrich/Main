@@ -1,64 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 /* Firefox */
-*
-{
+* {
     scrollbar-width: thin;
     scrollbar-color: #fff #000;
 }
 
 /* Chrome, Edge and Safari */
-*::-webkit-scrollbar
-{
+*::-webkit-scrollbar {
     width: 10px;
     width: 10px;
 }
 
-*::-webkit-scrollbar-track
-{
+*::-webkit-scrollbar-track {
     border-radius: 5px;
     background-color: #000;
 }
 
-*::-webkit-scrollbar-track:hover
-{
+*::-webkit-scrollbar-track:hover {
     background-color: #000;
 }
 
-*::-webkit-scrollbar-track:active
-{
+*::-webkit-scrollbar-track:active {
     background-color: #000;
 }
 
-*::-webkit-scrollbar-thumb
-{
+*::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background-color: #fff;
 }
 
-*::-webkit-scrollbar-thumb:hover
-{
+*::-webkit-scrollbar-thumb:hover {
     background-color: #fff;
 }
 
-*::-webkit-scrollbar-thumb:active
-{
+*::-webkit-scrollbar-thumb:active {
     background-color: #fff;
 }
 
-*
-{
+* {
     font-family: 'COURIER NEW' !important;
 
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 
     text-align: center;
 
     scroll-behavior: smooth;
 }
 
-svg
-{
+svg {
     font-family: 'Russo One', sans-serif;
 
     width: 100%;
@@ -67,52 +58,47 @@ svg
     margin-top: 25vh;
 }
 
-svg text
-{
+svg text {
     -webkit-animation: stroke 4s;
-            animation: stroke 4s;
+    animation: stroke 4s;
 
     stroke-width: 2;
     stroke: #fff;
 }
-@media (min-width: 1090px)
-{
-    svg text
-    {
+
+@media (min-width: 1090px) {
+    svg text {
         font-size: 12lvw;
     }
 }
-@media (max-width: 1080px)
-{
-    svg text
-    {
+
+@media (max-width: 1080px) {
+    svg text {
         font-size: 10lvw;
     }
 }
 
-@-webkit-keyframes stroke
-{
-    0%
-    {
+@-webkit-keyframes stroke {
+    0% {
         fill: rgba(0, 0, 0, 0);
         stroke: rgb(255, 255, 255);
         stroke-dashoffset: 25%;
         stroke-dasharray: 0 50%;
         stroke-width: 2;
     }
-    70%
-    {
+
+    70% {
         fill: rgba(0, 0, 0, 0);
         stroke: rgb(255, 255, 255);
     }
-    80%
-    {
+
+    80% {
         fill: rgba(0, 0, 0, 0);
         stroke: rgb(255, 255, 255);
         stroke-width: 3;
     }
-    100%
-    {
+
+    100% {
         fill: rgb(0, 0, 0);
         stroke: rgba(255, 255, 255, 0);
         stroke-dashoffset: -25%;
@@ -121,29 +107,27 @@ svg text
     }
 }
 
-@keyframes stroke
-{
-    0%
-    {
+@keyframes stroke {
+    0% {
         fill: rgba(0, 0, 0, 0);
         stroke: rgb(255, 255, 255);
         stroke-dashoffset: 25%;
         stroke-dasharray: 0 50%;
         stroke-width: 2;
     }
-    70%
-    {
+
+    70% {
         fill: rgba(0, 0, 0, 0);
         stroke: rgb(255, 255, 255);
     }
-    80%
-    {
+
+    80% {
         fill: rgba(0, 0, 0, 0);
         stroke: rgb(255, 255, 255);
         stroke-width: 3;
     }
-    100%
-    {
+
+    100% {
         fill: rgb(0, 0, 0);
         stroke: rgba(255, 255, 255, 0);
         stroke-dashoffset: -25%;
@@ -151,22 +135,21 @@ svg text
         stroke-width: 0;
     }
 }
-.wrapper
-{
+
+.wrapper {
     background-color: #000;
 }
 
-body
-{
+body {
     background: black;
 }
+
 body h1,
-body p
-{
+body p {
     color: white;
 }
-body .nav
-{
+
+body .nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -177,50 +160,47 @@ body .nav
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
-@media (min-width: 1090px)
-{
-    body .nav .logo img
-    {
-        width: 5vw;
-        height: 5vw;
+
+@media (min-width: 1090px) {
+    body .nav .logo img {
+        width: 6.5vw;
+        height: 6.1vw;
         margin-bottom: .5vh;
 
         border-radius: 30px;
     }
 }
-@media (max-width: 1080px)
-{
-    body .nav .logo img
-    {
-        width: 10vw;
-        height: 9.5vw;
+
+@media (max-width: 1080px) {
+    body .nav .logo img {
+        width: 9vw;
+        height: 9vw;
         margin-bottom: .5vh;
 
         border-radius: 30px;
     }
 }
+
 body .russian,
-body .english
-{
+body .english {
     -webkit-transition: 2s;
-            transition: 2s;
+    transition: 2s;
 
     opacity: 0;
 }
-@media (min-width: 1090px)
-{
-    body .btn
-    {
+
+@media (min-width: 1090px) {
+    body .btn {
         font-size: x-large;
         font-weight: 600;
 
         width: 25vw;
         height: 5vh;
-        margin: 2vw;
+        margin: 2.5vw;
 
         cursor: pointer;
         -webkit-transition: 650ms;
-                transition: 650ms;
+        transition: 650ms;
 
         color: white;
         border: 2px solid white;
@@ -230,10 +210,9 @@ body .english
         background: black;
     }
 }
-@media (max-width: 1080px)
-{
-    body .btn
-    {
+
+@media (max-width: 1080px) {
+    body .btn {
         font-size: x-large;
         font-weight: 600;
 
@@ -243,7 +222,7 @@ body .english
 
         cursor: pointer;
         -webkit-transition: 650ms;
-                transition: 650ms;
+        transition: 650ms;
 
         color: white;
         border: 2px solid white;
@@ -253,23 +232,23 @@ body .english
         background: black;
     }
 }
-body .btn:hover
-{
+
+body .btn:hover {
     -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
 
     color: black;
     background: white;
 }
-body .animation
-{
+
+body .animation {
     -webkit-transition: 2s;
-            transition: 2s;
+    transition: 2s;
 
     opacity: 0;
 }
-body .header
-{
+
+body .header {
     width: 85vw;
     margin: 0 auto;
     padding: 10px;
@@ -280,13 +259,13 @@ body .header
     border: 2px solid white;
     border-radius: 10px;
 }
-body .header p
-{
+
+body .header p {
     font-size: xx-large;
     font-weight: 600;
 }
-body .projects-list
-{
+
+body .projects-list {
     width: 85vw;
     margin: 0 auto;
     padding: 25px;
@@ -295,13 +274,13 @@ body .projects-list
     border: 2px solid white;
     border-radius: 10px;
 }
-body .projects-list p
-{
+
+body .projects-list p {
     font-size: xx-large;
     font-weight: 600;
 }
-body .footer
-{
+
+body .footer {
     width: 85vw;
     margin: 0 auto;
     padding: 25px;
@@ -310,18 +289,17 @@ body .footer
     border: 2px solid white;
     border-radius: 10px;
 }
-body .footer p
-{
+
+body .footer p {
     font-size: x-large;
     font-weight: 600;
 }
-body .visible
-{
+
+body .visible {
     opacity: 1;
 }
 
-::selection
-{
+::selection {
     color: black;
     background-color: white;
 }

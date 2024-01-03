@@ -39,7 +39,7 @@ $(".wrapper").on("animationend", function (event) {
             <br>
             <br>
             <div class="footer">
-                <p>© 2023, Wolfdmitrich</p>
+                <p>© 2024, Wolfdmitrich</p>
             </div>
         </div>
     `);
@@ -81,7 +81,7 @@ $(".wrapper").on("animationend", function (event) {
             <br>
             <br>
             <div class="footer">
-                <p>© 2023, Wolfdmitrich</p>
+                <p>© 2024, Wolfdmitrich</p>
             </div>
         </div>
     `);
